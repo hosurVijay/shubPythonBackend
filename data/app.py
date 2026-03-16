@@ -23,7 +23,7 @@ app.add_middleware(
 # ==============================
 
 BASE_DIR = Path(__file__).resolve().parent
-csv_path = BASE_DIR / "Muhurta_2027_2.csv"
+csv_path = BASE_DIR / "Muhurta_2027_Final.csv"
 
 df = pd.read_csv(csv_path, encoding="utf-8-sig")
 
